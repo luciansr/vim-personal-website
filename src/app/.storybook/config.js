@@ -1,4 +1,5 @@
 import { configure } from '@storybook/react';
+import 'typeface-roboto-mono';
 
 // function loadStories() {
 //   require('../stories/index.js');

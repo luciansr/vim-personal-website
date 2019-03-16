@@ -1,5 +1,4 @@
 import React from 'react';
-import 'typeface-roboto-mono';
 
 const cellStyle = {
     backgroundColor: 'black',
