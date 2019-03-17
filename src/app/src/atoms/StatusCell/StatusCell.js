@@ -17,6 +17,7 @@ const StatusCellModifiers = {
     Yellow: "yellow",
     Orange: "orange",
     Blue: "blue",
+    NoText: "no-text",
 };
 
 const MODIFIER_CONFIG = {
@@ -40,6 +41,9 @@ const MODIFIER_CONFIG = {
     `,
     [StatusCellModifiers.Blue]: () => `
       background-color: ${blue};
+      color: ${darkGray};
+    `,
+    [StatusCellModifiers.NoText]: () => `
       color: ${darkGray};
     `,
 };
