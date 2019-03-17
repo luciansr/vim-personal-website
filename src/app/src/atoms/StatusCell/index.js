@@ -1,1 +1,1 @@
-export { default as StatusCell } from './StatusCell';
+export { StatusCell, StatusCellModifiers } from './StatusCell';
